@@ -56,7 +56,7 @@
 
     // Draws the player's spaceship
     function drawPlayer() {
-      ctx.fillStyle = "#00eaff";
+      ctx.fillStyle = "#2f00ff";
       ctx.beginPath();
       ctx.moveTo(player.x + player.width / 2, player.y);
       ctx.lineTo(player.x, player.y + player.height);
@@ -64,7 +64,7 @@
       ctx.closePath();
       ctx.fill();
 
-      ctx.fillStyle = "#ffe66d";
+      ctx.fillStyle = "#ffffff";
       ctx.fillRect(player.x + 18, player.y + 28, 14, 18);
     }
 
