@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Space Defender</title>
+  <link rel="icon" href="icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="game-container">
+    <h1>🚀 Space Defender</h1>
+
+    <section class="info-panel">
+      <p>Score: <span id="score">0</span></p>
+      <p>Lives: <span id="lives">3</span></p>
+      <p>Level: <span id="level">1</span></p>
+    </section>
+
+    <canvas id="gameCanvas" width="900" height="520"></canvas>
+
+    <p class="controls">
+      Move with ← → or A/D | Shoot with Space | Destroy meteors before they hit you.
+    </p>
+
+    <button id="restartBtn">Restart Game</button>
+    <div class="game-over-box" id="message"></div>
+  </main>
+  <script src="script.js"></script>
+  </body>
+</html>
